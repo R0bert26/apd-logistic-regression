@@ -1,4 +1,4 @@
-# Proiect: Logistic Regression – CPU vs GPU vs CUDA
+# Logistic Regression – CPU vs GPU vs CUDA
 
 ## 1. Cerințele Proiectului
 
@@ -78,8 +78,9 @@ Testele de performanță se realizează pe dataset-uri de dimensiuni mari (ex. 5
 | -------------------------- | ----------------- | --------------------------- | ------------------- |
 | 1. Baseline (Scikit-Learn) | CPU               | 0.4482 s                    | 99.91%              |
 
+---
 
-## 5. Dataset
+## 6. Dataset
 
 Acest proiect utilizează setul de date **Credit Card Fraud Detection** pentru a testa performanța algoritmilor. Deoarece fișierul depășește limita de dimensiune admisă de GitHub (150+ MB), acesta nu este inclus direct în repository.
 
@@ -87,3 +88,5 @@ Acest proiect utilizează setul de date **Credit Card Fraud Detection** pentru a
 1. Descărcați dataset-ul oficial de pe Kaggle: [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 2. Dezarhivați fișierul descărcat.
 3. Plasați fișierul `creditcard.csv` exact în directorul rădăcină al acestui proiect (la același nivel cu fișierele `.py`).
+
+---
